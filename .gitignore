@@ -6,6 +6,7 @@ target/
 *.tar
 *.tar.gz
 *.class
+.flattened-pom.xml
 
 # eclipse ignore
 .settings/
@@ -27,11 +28,12 @@ target/
 /distribution/bin
 /distribution/conf
 /distribution/lib
-server/*root.*
-server/.root.*
+/server/*root.*
+/server/.root.*
+/server/sessionStore/
+/sessionStore/
 
 # system ignore
 .DS_Store
 Thumbs.db
 *.orig
-*.class
